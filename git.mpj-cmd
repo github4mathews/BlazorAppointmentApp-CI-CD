@@ -11,3 +11,6 @@ git commit -m "This is version two to experimental-branch"
 git push origin experimental-branch
 
 git branch
+
+# Open running container bash/cmd
+docker exec -it <Container-Name> bash
